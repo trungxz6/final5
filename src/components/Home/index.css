@@ -1,0 +1,50 @@
+.Home {
+    text-align: center;
+    margin-top: 100px;
+}
+.Home .titleh1,
+.Home .titleh4{
+ color: white;
+}
+.Home .titleh2{
+    color: orange;
+}
+.Home button{
+    background-color: #227AAD;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.Home button:hover{
+    background-color: #579DD4;
+}
+.Home .partner-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 400px 0px;
+    height: 200px;
+    outline: 1px solid #227AAD;
+}
+.Home .partner-banner:hover{
+    outline: 1px solid #579DD4;
+}
+.Home .partner-banner h2,
+.Home .partner-banner h4{
+    padding-top: 20px;
+}
+.Home .partner-banner h2{
+    color: white;
+}
+.Home .partner-banner h4{
+    color: #227AAD;
+}
+.Home .partner-banner:hover h4{
+    color: #579DD4;
+    font-weight: 700;
+}

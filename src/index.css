@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.ChampInfo{
+  font-size: 20px;
+  color:white;
+  margin:30px 400px;
+  display:flex;
+  justify-content:flex-start;
+  align-items:flex-start
+}
+.champDes{
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: #266285 1px solid;
+  width:400px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center
+}
+.imagehehe{
+  height:120px;
+  width:120px;
+  border-radius:50%
+}
+.item-build{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #266285;
+  margin-top: 50px;
+  width:400px;
+  text-Decoration: underline orange 10px;
+  text-Underline-Offset:15px
+}
+.item-list1{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #266285;
+  padding: 20px;
+  width: 355px;
+  background-color: #0D202B;
+  border-radius: 5px;
+}
+.item-gear{
+  margin: 5px;
+}
+.stats-list1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+}
+.stats-item{
+  margin: 10px 0px;
+  font-size: 16px;
+}
+.moreInfo{
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.abi-list{
+  margin-top: 20px;
+  border: 1px solid #266285;
+  background-color: #0D202B;
+  border-radius: 5px;
+  padding: 20px;
+}
+.abi-item{
+  margin: 10px 0px;
+}

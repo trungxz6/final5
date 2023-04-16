@@ -1,0 +1,22 @@
+.Footer{
+    color: white;
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+}
+.Footer .top-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.Footer .bot-footer{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 100px;
+}

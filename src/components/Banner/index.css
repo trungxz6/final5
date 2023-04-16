@@ -1,0 +1,26 @@
+.Banner{
+    
+    padding: 0px 400px;
+    border-top: 3px solid #0c88e7;
+}
+a{
+    text-decoration: none;
+}
+.h1{
+    font-weight: 700;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.banner{
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    outline: 3px solid #011727;
+    color: orange; 
+}
+.banner:hover{
+    outline: 3px solid #0c88e7;
+}

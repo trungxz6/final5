@@ -1,0 +1,92 @@
+*{
+    font-family: Comfortaa;
+}
+.HeaderAuth{
+
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #0c88e7;
+    align-items: center;
+    padding: 30px 400px;
+}
+.HeaderAuth .logo{
+    width: 80px; 
+    height: 80px;
+}
+.HeaderAuth .Search-bar{
+    /* top: 50px;
+    left: 780px;
+    position: absolute; */
+    border-radius: 10px;
+    border: 2px solid #0c88e7;
+    display: flex;
+    align-items: center;
+    color: #0c88e7;
+}
+.HeaderAuth .Search{
+    margin:5px;
+    width: 325px;
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.Search, textarea {
+    background-color: #102531;
+  }
+.HeaderAuth .Search::placeholder{
+    color: orange
+}
+.HeaderAuth .champ-search-list{
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    border: 3px solid #071f30;
+    background-color: #1a3447;
+    border-radius: 5px;
+}
+.HeaderAuth .champ-get-search{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HeaderAuth .champ-get-search:hover .champ-search{
+    outline: 1px solid orange;
+}
+.HeaderAuth .champ-get-search:hover .name-search{
+    color:orange;
+}
+.HeaderAuth .champ-search{
+    height: 70px;
+    
+}
+.HeaderAuth .name-search{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 70px;
+}
+.HeaderAuth .user{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+}
+.HeaderAuth .user .button{
+    border: none;
+    border-radius: 5px;
+    background-color: #0c88e7;
+    padding: 5px;
+    color: white;
+}
+
